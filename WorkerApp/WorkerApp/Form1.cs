@@ -34,7 +34,7 @@ namespace WorkerApp
                 }
                 else
                 {
-                    hasOverworkLabel.Text = "Наличие переработки +";
+                    hasOverworkLabel.Text = "Наличие переработки -";
                     timeOverworkLabel.Text = $"Время переработки - 0";
                     amountOfOverworkLabel.Text = $"Сумма переработки - 0";
                     resultLabel.Text = $"Итог {workTime * salaryPerHour}";
